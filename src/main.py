@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix="&&", intents=discord.Intents.all())
 # if not os.path.exists(logs_dir):
 #     print("Made Logs Folder and file!")
 #     os.makedirs(logs_dir)
-# # # Logging Handler to log info
+# # Logging Handler to log info
 # handler = logging.FileHandler(
 #     filename="./Logs/discord.log", encoding="utf-8", mode="w"
 # )
@@ -57,6 +57,6 @@ class bot(commands.Bot):
 
 bot = bot()
 
-bot.run(token,)
+bot.run(token)
 
 
